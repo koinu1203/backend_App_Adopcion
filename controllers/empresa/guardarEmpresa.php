@@ -4,10 +4,10 @@ require_once('/app/logic/gestorEmpresa.php');
 
 try {
 
-    if (isset($_GET['codigo']) && isset($_GET['nombre']) && isset($_GET['logo'])) {
-        $codigo = $_GET['codigo'];
-        $nombre = $_GET['nombre'];
-        $logo = $_GET['logo'];
+    if (isset($_POST['codigo']) && isset($_POST['nombre']) && isset($_POST['logo'])) {
+        $codigo = $_POST['codigo'];
+        $nombre = $_POST['nombre'];
+        $logo = $_POST['logo'];
 
         guardarEmpresa($codigo,$nombre,$logo);
     }else {

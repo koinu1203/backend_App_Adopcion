@@ -4,15 +4,15 @@ require_once('/app/logic/gestorUsuario.php');
 
 try {
 
-    if (isset($_GET['codigo']) && isset($_GET['dni']) && isset($_GET['nombres']) && isset($_GET['apellidos']) && isset($_GET['correo']) && isset($_GET['telefono']) &&  isset($_GET['foto'])&& isset($_GET['idusuario'])) {
-        $codigo = $_GET['codigo'];
-        $dni = $_GET['dni'];
-        $nombres = $_GET['nombres'];
-        $apellidos = $_GET['apellidos'];
-        $correo = $_GET['correo'];
-        $telefono = $_GET['telefono'];
-        $foto = $_GET['foto'];
-        $idusuario = $_GET['idusario'];
+    if (isset($_POST['codigo']) && isset($_POST['dni']) && isset($_POST['nombres']) && isset($_POST['apellidos']) && isset($_POST['correo']) && isset($_POST['telefono']) &&  isset($_POST['foto'])&& isset($_POST['idusuario'])) {
+        $codigo = $_POST['codigo'];
+        $dni = $_POST['dni'];
+        $nombres = $_POST['nombres'];
+        $apellidos = $_POST['apellidos'];
+        $correo = $_POST['correo'];
+        $telefono = $_POST['telefono'];
+        $foto = $_POST['foto'];
+        $idusuario = $_POST['idusario'];
         editarUsuario($codigo,$dni,$nombres,$apellidos,$correo,$telefono,$foto,$idusuario);
     }else {
         echo json_encode('datos incorrectos');

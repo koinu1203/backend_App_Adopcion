@@ -4,12 +4,12 @@ require_once('/app/logic/gestorAnimalitos.php');
 
 try {
 
-    if (isset($_GET['codigo']) && isset($_GET['nombre']) && isset($_GET['raza']) && isset($_GET['foto']) && isset($_GET['color'])&& isset($_GET['codigoEmpresa']) ) {
-        $codigo = $_GET['codigo'];
-        $nombre = $_GET['nombre'];
-        $raza = $_GET['raza'];
-        $foto = $_GET['foto'];
-        $codigoEmpresa = $_GET['codigoEmpresa'];
+    if (isset($_POST['codigo']) && isset($_POST['nombre']) && isset($_POST['raza']) && isset($_POST['foto']) && isset($_POST['color'])&& isset($_POST['codigoEmpresa']) ) {
+        $codigo = $_POST['codigo'];
+        $nombre = $_POST['nombre'];
+        $raza = $_POST['raza'];
+        $foto = $_POST['foto'];
+        $codigoEmpresa = $_POST['codigoEmpresa'];
         guardarAnimalito($codigo,$nombre,$raza,$foto,$color,$codigoEmpresa);
     }else {
         echo json_encode('datos incorrectos');

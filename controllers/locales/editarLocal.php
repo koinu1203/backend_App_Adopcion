@@ -4,12 +4,12 @@ require_once('/app/logic/gestorLocales.php');
 
 try {
 
-    if (isset($_GET['idlocal']) && isset($_GET['codigo']) && isset($_GET['direccion']) && isset($_GET['latitud']) && isset($_GET['longitud'])) {
-        $idlocal = $_GET['idlocal'];
-        $codigo = $_GET['codigo'];
-        $direccion = $_GET['direccion'];
-        $latitud = $_GET['latitud'];
-        $longitud = $_GET['longitud'];
+    if (isset($_POST['idlocal']) && isset($_POST['codigo']) && isset($_POST['direccion']) && isset($_POST['latitud']) && isset($_POST['longitud'])) {
+        $idlocal = $_POST['idlocal'];
+        $codigo = $_POST['codigo'];
+        $direccion = $_POST['direccion'];
+        $latitud = $_POST['latitud'];
+        $longitud = $_POST['longitud'];
         editarLocal($idlocal,$codigo,$direccion,$latitud,$longitud);
     }else {
         echo json_encode('datos incorrectos');

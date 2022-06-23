@@ -4,13 +4,13 @@ require_once('/app/logic/gestorAnimalitos.php');
 
 try {
 
-    if (isset($_GET['idanimalito']) && isset($_GET['codigo']) && isset($_GET['nombre']) && isset($_GET['raza']) && isset($_GET['foto'])&& isset($_GET['color'])) {
-        $idanimalito = $_GET['idanimalito'];
-        $codigo = $_GET['codigo'];
-        $nombre = $_GET['nombre'];
-        $raza = $_GET['raza'];
-        $foto = $_GET['foto'];
-        $color = $_GET['color'];
+    if (isset($_POST['idanimalito']) && isset($_POST['codigo']) && isset($_POST['nombre']) && isset($_POST['raza']) && isset($_POST['foto'])&& isset($_POST['color'])) {
+        $idanimalito = $_POST['idanimalito'];
+        $codigo = $_POST['codigo'];
+        $nombre = $_POST['nombre'];
+        $raza = $_POST['raza'];
+        $foto = $_POST['foto'];
+        $color = $_POST['color'];
 
         editarAnimalito($idanimalito,$codigo,$nombre,$raza,$foto,$color);
     }else {
