@@ -1,7 +1,7 @@
 <?php
 
     function conexion(){
-        $mysqli = new mysqli("sql310.epizy.com", "epiz_32002043", "1QMm1jQ6hpcYSQn", "epiz_32002043_adopciondb");
+        $mysqli = new mysqli("us-cdbr-east-05.cleardb.net", "bacab510497bff", "d4a44afc", "heroku_71847ff38a84456");
 
         if($mysqli->connect_error){
             die('Se produjo un error de conexión: (' . $mysqli->connect_errno . ')' . $mysqli->connect_error);
