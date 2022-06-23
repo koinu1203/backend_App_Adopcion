@@ -1,5 +1,5 @@
 <?php
-require_once('../database/dalEmpresa.php');
+require_once('/app/database/dalEmpresa.php');
 
     function listaEmpresa(){
         return listarEmpresa();

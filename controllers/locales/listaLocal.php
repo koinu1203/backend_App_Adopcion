@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../logic/gestoLocales.php');
+require_once('/app/logic/gestoLocales.php');
 
 try {
     if (isset($_GET['codigoEmpresa'])) {

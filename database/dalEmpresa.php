@@ -1,6 +1,6 @@
 <?php
  require_once('conexion.php');
- require_once('../models/empresa.php');
+ require_once('/app/models/empresa.php');
 
     function listarEmpresa(){
         $mysqli = conexion();

@@ -1,6 +1,6 @@
 <?php
  require_once('conexion.php');
- require_once('../models/usuario.php');
+ require_once('/app/models/usuario.php');
 
     function iniciarSeccion($correo,$contrasena){
         $mysqli = conexion();

@@ -1,5 +1,5 @@
 <?php
-require_once('../database/dalAnimales.php');
+require_once('/app/database/dalAnimales.php');
 
     function listaAnimalito($codigoEmpresa){
         return listarAnimalito($codigoEmpresa);

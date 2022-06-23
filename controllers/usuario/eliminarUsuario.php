@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../logic/gestorUsuario.php');
+require_once('/app/logic/gestorUsuario.php');
 
 try {
 

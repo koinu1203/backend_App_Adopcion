@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../logic/gestorLocales.php');
+require_once('/app/logic/gestorLocales.php');
 
 try {
 

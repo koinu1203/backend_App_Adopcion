@@ -1,6 +1,6 @@
 <?php
  require_once('conexion.php');
- require_once('../models/local.php');
+ require_once('/app/models/local.php');
 
     function listarLocal($codigoEmpresa){
         $mysqli = conexion();

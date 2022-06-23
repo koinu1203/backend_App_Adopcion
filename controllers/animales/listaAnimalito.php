@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../logic/gestorAnimalitos.php');
+require_once('/app/logic/gestorAnimalitos.php');
 
 try {
     if (isset($_GET['codigoEmpresa'])) {

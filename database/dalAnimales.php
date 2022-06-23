@@ -1,6 +1,6 @@
 <?php
  require_once('conexion.php');
- require_once('../models/usuario.php');
+ require_once('/app/models/usuario.php');
 
     function borrarAnimalito($idanimalito){
         $mysqli = conexion();

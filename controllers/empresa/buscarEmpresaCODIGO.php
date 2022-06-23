@@ -1,6 +1,6 @@
 <?php
 
-require_once('../../logic/gestorEmpresa.php');
+require_once('/app/logic/gestorEmpresa.php');
 
 try {
 
