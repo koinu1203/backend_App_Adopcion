@@ -1,6 +1,6 @@
 <?php
 
-require_once('/xampp/htdocs/App_Adopcion/logic/gestorUsuario.php');
+require_once('../../logic/gestorUsuario.php');
 
 try {
 

@@ -1,6 +1,6 @@
 <?php
 
-require_once('/xampp/htdocs/App_Adopcion/logic/gestorEmpresa.php');
+require_once('../../logic/gestorEmpresa.php');
 
 try {
 

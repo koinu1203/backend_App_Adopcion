@@ -1,5 +1,5 @@
 <?php
-require_once('/xampp/htdocs/App_Adopcion/database/dalEmpresa.php');
+require_once('../database/dalEmpresa.php');
 
     function listaEmpresa(){
         return listarEmpresa();

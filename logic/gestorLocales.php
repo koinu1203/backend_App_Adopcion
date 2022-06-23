@@ -1,5 +1,5 @@
 <?php
-require_once('/xampp/htdocs/App_Adopcion/database/dalLocales.php');
+require_once('../database/dalLocales.php');
 
     function listaLocal($codigoEmpresa){
         return listarLocal($codigoEmpresa);

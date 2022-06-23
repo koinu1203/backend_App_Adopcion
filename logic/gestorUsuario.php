@@ -1,5 +1,5 @@
 <?php
-require_once('/xampp/htdocs/App_Adopcion/database/dalUsuario.php');
+require_once('../database/dalUsuario.php');
 
     function eliminarUsuario($idusuario){
         return borrarUsuario($idusuario);

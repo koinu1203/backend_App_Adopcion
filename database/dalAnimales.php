@@ -1,6 +1,6 @@
 <?php
- require_once('/xampp/htdocs/App_Adopcion/database/conexion.php');
- require_once('/xampp/htdocs/App_Adopcion/models/usuario.php');
+ require_once('conexion.php');
+ require_once('../models/usuario.php');
 
     function borrarAnimalito($idanimalito){
         $mysqli = conexion();

@@ -1,6 +1,6 @@
 <?php
 
-require_once('/xampp/htdocs/App_Adopcion/logic/gestorAnimalitos.php');
+require_once('../../logic/gestorAnimalitos.php');
 
 try {
 

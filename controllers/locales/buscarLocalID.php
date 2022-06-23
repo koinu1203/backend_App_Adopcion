@@ -1,6 +1,6 @@
 <?php
 
-require_once('/xampp/htdocs/App_Adopcion/logic/gestorLocales.php');
+require_once('../../logic/gestorLocales.php');
 
 try {
 

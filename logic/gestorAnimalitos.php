@@ -1,5 +1,5 @@
 <?php
-require_once('/xampp/htdocs/App_Adopcion/database/dalAnimales.php');
+require_once('../database/dalAnimales.php');
 
     function listaAnimalito($codigoEmpresa){
         return listarAnimalito($codigoEmpresa);

@@ -1,6 +1,6 @@
 <?php
- require_once('/xampp/htdocs/App_Adopcion/database/conexion.php');
- require_once('/xampp/htdocs/App_Adopcion/models/local.php');
+ require_once('conexion.php');
+ require_once('../models/local.php');
 
     function listarLocal($codigoEmpresa){
         $mysqli = conexion();

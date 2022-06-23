@@ -1,6 +1,6 @@
 <?php
- require_once('/xampp/htdocs/App_Adopcion/database/conexion.php');
- require_once('/xampp/htdocs/App_Adopcion/models/empresa.php');
+ require_once('conexion.php');
+ require_once('../models/empresa.php');
 
     function listarEmpresa(){
         $mysqli = conexion();
